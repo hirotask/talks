@@ -6,8 +6,7 @@
   "scripts": {
     "build": "pnpm -r run build",
     "dev": "tsx script/picker.ts dev",
-    "lint": "eslint .",
-    "build:pages": "tsx script/collect-dist.ts"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "eslint": "catalog:",
