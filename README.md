@@ -1,25 +1,27 @@
----
-marp: true
-paginate: true
-theme: simple-dark
----
-<!-- _class: title -->
-# slides
+# talks
 
-## created by @hirotask
+## リポジトリ概要
 
----
+[このリポジトリ](https://github.com/hirotask/talks) は @hirotask が作成したスライドを [slidev](https://ja.sli.dev/) を用いて公開・管理するために作成されました。
 
-# リポジトリ概要
+## スライドの作成方法
 
-[このリポジトリ](https://github.com/hirotask/slides) は @hirotask が作成したスライドを [Marp](https://marp.app/) を用いて公開・管理するために作成されました。
+```bash
+pnpm create slidev
+  ●■▲
+  Slidev Creator  v52.14.2
 
-[こちら](https://slides.hirotask.me/) から README.md のスライドを確認できます。
+✔ Project name: … 2024-11-12/src
+  Scaffolding project in 2024-11-12/src ...
+  Done.
 
----
+✔ Install and start it now? … yes
+✔ Choose the package manager › pnpm
+Scope: all 3 workspace projects
+```
 
-# このリポジトリの使用方法
+## 特定のスライドをブラウザで表示する
 
-1. このリポジトリを Clone します
-2. VSCode で開き「Reopen in Container...」で devcontainer を起動します。
-3. `docs` フォルダ内に markdown を作成します
+```bash
+pnpm run dev
+```
