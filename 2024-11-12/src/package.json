@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "tsx ../../script/build.ts /talks/2024-11-12/",
+    "build": "tsx ../../script/build.ts /2024-11-12/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
