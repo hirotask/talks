@@ -7,15 +7,17 @@
     "build": "pnpm -r run build",
     "dev": "tsx script/picker.ts dev",
     "lint": "eslint .",
-    "build:pages": "tsx script/build-pages.ts"
+    "build:pages": "tsx script/collect-dist.ts"
   },
   "devDependencies": {
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",
     "execa": "catalog:",
+    "find-up": "catalog:",
     "prettier": "catalog:",
     "prettier-plugin-slidev": "catalog:",
     "prompts": "catalog:",
+    "tinyexec": "catalog:",
     "tsx": "catalog:",
     "typescript-eslint": "catalog:"
   }

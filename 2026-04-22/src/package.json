@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "tsx ../../script/build.ts /2026-04-22/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -14,3 +14,4 @@
     "vue": "^3.5.29"
   }
 }
+
