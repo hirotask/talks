@@ -9,6 +9,7 @@ catalog:
   prettier: ^3.8.3
   prettier-plugin-slidev: ^1.0.5
   prompts: ^2.4.2
+  slidev-theme-nord: ^0.0.6
   tinyexec: ^1.1.1
   tsx: ^4.21.0
   typescript-eslint: ^8.59.0
