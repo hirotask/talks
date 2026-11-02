@@ -12,6 +12,6 @@
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
     "slidev-theme-nord": "catalog:",
-    "vue": "^3.5.29"
+    "vue": "^3.5.44"
   }
 }
